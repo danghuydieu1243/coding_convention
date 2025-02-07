@@ -11,10 +11,10 @@ public class Main {
         System.out.print("Nhập số thứ hai: ");  
         int num2 = scanner.nextInt();  
   
-        int sum = cong(num1, num2);  
+        int sum = add(num1, num2);  
         System.out.println("Tổng: " + sum);  
   
-        int diff = tru(num1, num2);  
+        int diff = subtract(num1, num2);  
         System.out.println("Hiệu: " + diff);  
   
         int prod = multiply(num1, num2);  
@@ -29,11 +29,11 @@ public class Main {
         scanner.close();  
     }  
   
-    public static int cong(int num1, int num2) {  
+    public static int add(int num1, int num2) {  
         return num1 + num2;  
     }  
   
-    public static int tru(int num1, int num2) {  
+    public static int subtract(int num1, int num2) {  
         return num1 - num2;  
     }  
   
