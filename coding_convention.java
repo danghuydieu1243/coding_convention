@@ -29,26 +29,26 @@ public class Main {
         scanner.close();  
     }  
   
-    public static int cong(int x, int y) {  
-        return x + y;  
+    public static int cong(int num1, int num2) {  
+        return num1 + num2;  
     }  
   
-    public static int tru(int x, int y) {  
-        return x - y;  
+    public static int tru(int num1, int num2) {  
+        return num1 - num2;  
     }  
   
-    public static int multiply(int x, int y) {  
-        return x * y;  
+    public static int multiply(int num1, int num2) {  
+        return num1 * num2;  
     }  
   
-    public static double divide(int x, int y) {  
-        if (y == 0) {  
+    public static double divide(int num1, int num2) {  
+        if (num2 == 0) {  
             throw new ArithmeticException("Không thể chia cho số 0.");  
         }  
-        return (double) x / y;  
+        return (double) num1 / num2;  
     }  
   
-    public static double calculateaverage(int x, int y) {  
-        return (x + y) / 2.0;  
+    public static double calculateaverage(int num1, int num2) {  
+        return (num1 + num2) / 2.0;  
     }  
 }  
