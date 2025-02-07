@@ -23,7 +23,7 @@ public class Main {
         double quotient = divide(num1, num2);  
         System.out.println("Thương: " + quotient);  
   
-        double avg = calculateaverage(num1, num2);  
+        double avg = calculateAverage(num1, num2);  
         System.out.println("Trung bình: " + avg);  
   
         scanner.close();  
@@ -48,7 +48,7 @@ public class Main {
         return (double) num1 / num2;  
     }  
   
-    public static double calculateaverage(int num1, int num2) {  
+    public static double calculateAverage(int num1, int num2) {  
         return (num1 + num2) / 2.0;  
     }  
 }  
